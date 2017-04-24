@@ -1,0 +1,10 @@
+#WS
+url=ws://localhost/websocket
+
+#Packet
+initial_message={"type" : "initialize", "min_inliers" : 5, "max_norm" : 0.3, "camera_cx" : 325.5, "camera_cy" : 253.5, "camera_fx" : 518.0, "camera_fy" : 519.0, "camera_scale" : 1000.0 }
+
+mainloop_message={"type" : "mainloop", "pts_obj" : "155,255,252;", "pts_img" : "155,157;"}
+close_message={"type" : "close"}
+
+data_message={"type" : "command", "data" : "1,2,3", "camera_cx" : 200.3, "camera_cy" : 253.5, "camera_fx" : 518.0, "camera_fy" : 519.0, "camera_scale" : 1000.0 }

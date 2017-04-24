@@ -1,0 +1,1 @@
+g++  -fPIC -std=c++11 -O3  -Wno-deprecated -O3 -DNDEBUG    -shared -Wl,-soname,librobotWS.so -o ../../lib/librobotWS.so CMakeFiles/robotWS.dir/robotWS.cpp.o  -L/home/ubuntu/CloudPlatformLua/CLOUD_BASED_VO_ROBOT/lib -lboost_system -lcrypto -lssl -lcpprest -Wl,-rpath,/home/ubuntu/CloudPlatformLua/CLOUD_BASED_VO_ROBOT/lib 
